@@ -6,52 +6,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Travel Website</title>
-  <link rel="stylesheet" href="style.css" />
-  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-  <header>
-    <header>
-      <!-- <div class="logo">
-        <a href="#"><img
-            src="https://images.safarcabby.com/car-rentals/happiness-plans-indore-madhya-pradesh-10614-5735.png"
-            alt="logo" /></a>
-      </div> -->
-      <div class="logo">
-        <a href="#"><img src="./images/logo.jpg" alt="logo" /></a>
-      </div>
-
-
-
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#destinations">Destinations</a></li>
-          <li><a href="#hotels">Hotels</a></li>
-          <li><a href="#activites">Activities</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header data-aos="fade-up">
+    <div class="logo">
+      <a href="#"><img src="./images/logo.jpg" alt="logo" /></a>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#hotels">Hotels</a></li>
+        <li><a href="#activites">Activities</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
+
   <main>
-    <section class="hero" data-aos="fade-up">
+    <section class="hero">
       <div class="hero-image">
-        <img src="images/hero.jpg" alt="Hero image" />
-
-
+        <img src="images/hero.jpg" alt="Hero image" data-aos="fade-up" />
       </div>
-      <div class="hero-content">
+      <div class=" hero-content">
         <h1>Welcome to Our Travel Website</h1>
         <p>Discover amazing destinations and book your next trip with us.</p>
         <a href="#" class="hero-button">Book Now</a>
       </div>
     </section>
-
+    <!-- Destination section -->
     <section id="destinations" class="destinations" data-aos="zoom-in">
       <h2>Popular Destinations</h2>
       <div class="slider-container">
@@ -62,19 +51,16 @@
         <button class="slider-btn next">&#10095;</button>
       </div>
     </section>
-
-
-
-
-
+    <!--  Hotel section  -->
     <section id="hotels" class="destinations" data-aos="fade-up">
       <h2>Featured Hotels</h2>
       <div class="destination-grid">
 
       </div>
     </section>
+    <!-- Featured Services  -->
     <section id="activites" class="destinations" data-aos="fade-up">
-      <h2>Featured Activities</h2>
+      <h2>Our Services</h2>
       <div class="destination-grid">
 
       </div>
@@ -89,43 +75,37 @@
       </p>
       <div class="team-members">
         <div class="team-member">
-
           <img
-            src="          https://png.pngtree.com/png-clipart/20240605/original/pngtree-cute-cartoon-winner-businessman-png-image_15246935.png"
-            alt="" />
-
+            src="https://png.pngtree.com/png-clipart/20240605/original/pngtree-cute-cartoon-winner-businessman-png-image_15246935.png"
+            alt="John Smith" />
           <h4>John Smith</h4>
           <p>Founder & CEO</p>
         </div>
         <div class="team-member">
           <img
             src="https://img.freepik.com/premium-photo/ultra-realistic-female-business-executive-with-book-dc-comics-style_899449-170325.jpg"
-            alt="" />
+            alt="Ema Doe" />
           <h4>Ema Doe</h4>
           <p>Head of Operations</p>
         </div>
         <div class="team-member">
           <img
             src="https://heyclipart.com/cdn/shop/files/2-businessman-with-briefcase-vector-cartoon-illustration-65.jpg"
-            alt="" />
+            alt="David Lee" />
           <h4>David Lee</h4>
           <p>Marketing Director</p>
         </div>
       </div>
     </section>
 
-
     <section id="testimonials" class="testimonials" data-aos="fade-up">
       <h3>Testimonials</h3>
-
       <div id="testimonial-list" class="testimonial-list">
-
         <div class="testimonial">
           <p>"Amazing experience! Everything was perfectly arranged. Will book again!"</p>
           <h4>- Priya Sharma</h4>
         </div>
       </div>
-
       <form id="testimonial-form" class="form">
         <h4>Share Your Experience</h4>
         <div class="form-group">
@@ -137,9 +117,6 @@
         <button type="submit">Add Testimonial</button>
       </form>
     </section>
-
-
-
 
     <section id="contact" class="contact">
       <h3>Contact Us</h3>
@@ -173,33 +150,20 @@
         <button type="submit">Send Message</button>
       </form>
     </section>
-    <footer>
-      <div class="social-icons">
-        <a href="https://www.facebook.com/happinessplans/" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/happiness.plans/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-      </div>
-      <p>&copy; 2023 Your Travel Website. All Rights Reserved.</p>
-    </footer>
   </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/happinessplans/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/happiness.plans/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2023 Your Travel Website. All Rights Reserved.</p>
+  </footer>
+
+
 </body>
-<script src="https://kit.fontawesome.com/6558443b63.js" crossorigin="anonymous"></script>
-
-
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1000,
-    once: true
-  });
-</script>
-
-
-
-<script src="./script.js">
-
-
-</script>
-
+<script src="/script.js"></script>
 
 </html>
