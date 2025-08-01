@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Find and reserve top-rated hotels worldwide at competitive prices with our trusted partners.",
     },
     {
-      img: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=1000&auto=format&fit=crop",
+      img: "https://www.informalnewz.com/wp-content/uploads/2023/12/Railways.jpg",
       title: "Railway Booking",
       content:
         "Book train tickets with real-time availability and instant confirmations for a smooth travel experience.",
